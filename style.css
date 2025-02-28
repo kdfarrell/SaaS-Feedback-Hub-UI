@@ -26,7 +26,7 @@ body {
     font-family: "Outfit", serif;
     height: 100vh;
    
-    background-image: url(/images/Background_image.png);
+    background-image: url(images/Background_image.png);
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
