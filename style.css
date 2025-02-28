@@ -25,11 +25,12 @@ img {
 body {
     font-family: "Outfit", serif;
     height: 100vh;
-    background-color: #121826;
-    background-image: url(/images/Background_image4x.png);
+   
+    background-image: url(/images/Background_image.png);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
+    background-blend-mode: multiply;
 }
 
 main {
@@ -40,6 +41,8 @@ main {
     max-width: 412px;
     padding: 2.5rem 1rem 1rem;
     margin: auto;  
+    background-color: hsla(222, 36%, 11%, 0.4);
+    
 }
 
 main h1 {
